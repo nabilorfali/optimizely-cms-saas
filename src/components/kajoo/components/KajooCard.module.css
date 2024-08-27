@@ -1,0 +1,27 @@
+.kajoo-card {
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .kajoo-card,.row-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .row-container {
+    flex: 0 0 auto;
+    height: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media(max-width: 767px) {
+    .container {
+      background-color: #bd2727;
+    }
+  }
+  
